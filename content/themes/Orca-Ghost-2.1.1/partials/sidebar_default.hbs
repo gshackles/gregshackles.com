@@ -7,9 +7,11 @@
 			<a href="{{@blog.url}}" class="logo"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
 			{{/if}}
 
-			<img src="/content/images/headshot.png" />
+			<a href="/">
+				<img src="/content/images/headshot.png" />
 
-			<h2>Greg Shackles</h2>
+				<h2>Greg Shackles</h2>
+			</a>
 
 			<p>{{@blog.description}}</p>
 		</div>
@@ -17,9 +19,31 @@
 		<div class="widget social_widget">
 			{{> social_sidebar}}
 		</div>
-		<!-- Tag Widget -->
+
+		<div class="social-extras widget">
+			<a href="http://gonemobile.io">
+		    	<img src="/content/images/gonemobile.png" />
+			</a>
+
+			<br />
+
+		    <a href="http://xamarin.com/mvp">
+		    	<img src="/content/images/xamarin-mvp.png" />
+			</a>
+
+			<a href="http://shop.oreilly.com/product/0636920024002.do">
+		    	<img src="/content/images/book.jpg" />
+			</a>
+
+			<br />
+
+		    <a href="http://nycmobiledev.net">
+		    	<img src="/content/images/nycmobile.png" />
+			</a>
+		</div>
+		<!-- Tag Widget 
 		<div class="widget tag_widget">
 			{{> tags}}
-		</div>
+		</div>-->
 	</aside>
 </div>
