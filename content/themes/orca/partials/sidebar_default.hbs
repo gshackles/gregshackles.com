@@ -1,0 +1,57 @@
+{{! USER CONFIGURATION OF THIS PAGE IS NOT REQUIRED }}
+<div class="alternate" id="sidebar">
+	<aside>
+		<!-- Description Widget -->
+		<div class="widget info_widget">
+			{{#if @blog.logo}}
+			<a href="{{@blog.url}}" class="logo"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+			{{/if}}
+
+			<a href="/">
+				<img src="/content/images/headshot.png" />
+
+				<h2>Greg Shackles</h2>
+			</a>
+
+			<p>{{@blog.description}}</p>
+		</div>
+		<!-- Social Widget -->
+		<div class="widget social_widget">
+			{{> social_sidebar}}
+		</div>
+
+		<div class="social-extras widget">
+			<a href="http://xamarin.com/mvp">
+		    	<img src="/content/images/xamarin-mvp2.jpg" />
+			</a>
+
+			<br />
+
+			<a href="https://mvp.microsoft.com/en-us/PublicProfile/5001466">
+		    	<img src="/content/images/microsoft-mvp2.png" />
+			</a>			
+
+			<br />
+
+			<a href="http://gonemobile.io">
+		    	<img src="/content/images/gonemobile.png" />
+			</a>
+
+			<br />
+
+		    <a href="http://nycmobiledev.net">
+		    	<img src="/content/images/nycmobile.png" />
+			</a>
+
+			<br />
+
+			<a href="http://shop.oreilly.com/product/0636920024002.do">
+		    	<img src="/content/images/book.png" />
+			</a>
+		</div>
+		<!-- Tag Widget 
+		<div class="widget tag_widget">
+			{{> tags}}
+		</div>-->
+	</aside>
+</div>
